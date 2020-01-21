@@ -1,4 +1,9 @@
+
 img{
     float: left;
     margin-left: 20px;
 }
+
+.content {
+    display: none;
+  }
