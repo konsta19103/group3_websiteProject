@@ -1,0 +1,20 @@
+img
+{
+    float: left;
+    margin-left: 20px;
+    
+}
+
+.content
+{
+    display: none;
+}
+.tietoa
+{
+    border-style: solid;
+   
+}
+.footer
+{
+    border-style: solid;
+}

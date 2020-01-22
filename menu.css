@@ -1,50 +1,61 @@
-
+ï»¿
 body{
 
-background-color: #ccd9ff;
+background: rgb(82,154,157);
+background: linear-gradient(145deg, rgba(82,154,157,1) 0%, rgba(60,179,196,1) 0%, rgba(247,247,247,1) 51%);
+text-align: center;
+font-size: 1.5rem;
+padding-right: calc(35% - 175px);
+padding-left: calc(35% - 175px);
 
 }
 
 .content{
 background-color: #b3c6ff;
 border-style: groove;
+font-size: 2rem;
 }
 :flexbox{
-display: flexbox | inline-flex;
-flex-direction: row | row-reverse | column | column-reverse;
-flex-wrap: nowrap | wrap | wrap-reverse;
-flex-flow: <‘flex-direction’> || <‘flex-wrap’>;
-justify-content: flex-start | flex-end | center | space-between | space-around;
-align-items: flex-start | flex-end | center | baseline | stretch;
-align-content: flex-start | flex-end | center | space-between | space-around | stretch;}
+display: flexbox;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:  center;
+align-items: flex-start;
+align-content: flex-start;}
 
 .navbar{
 background-color: #99b3ff;
 border-style: groove;
-
-
-}
-navitems{
 margin: auto;
-font-size: 200%;
-text-align: center;
+font-size: 225%;
+text-align: left;
 color: blue;
- -webkit-text-stroke: 1px black;
-}
+-webkit-text-stroke: 1px black;
+text-align: center;
 
-
-}
 a{
  background-color: #b3b3ff;
- display:inline;
  border-style: groove;
  margin-left: 10px;
  margin: auto;
  width: 100%;
+}
+p{
+font-size: 150%;
 }
 
 .img{				
     display: inline-block;
     float: left;
     margin-left: 20px;
+}
+.logo{
+
+ 
+}
+title{
+
+}
+button{
+font-size: 2 rem;
 }
