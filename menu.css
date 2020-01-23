@@ -1,24 +1,24 @@
 ﻿
 body{
 
-background: rgb(82,154,157);
-background: linear-gradient(145deg, rgba(82,154,157,1) 0%, rgba(60,179,196,1) 0%, rgba(247,247,247,1) 51%);
+background: rgb(48,183,255);
+background: linear-gradient(145deg, rgba(48,183,255,1) 25%, rgba(247,247,247,1) 50%);
 text-align: center;
-font-size: 1.5rem;
+font-size: 1.5em;
 padding-right: calc(35% - 175px);
 padding-left: calc(35% - 175px);
 
 }
 
 .content{
-background-color: #b3c6ff;
-border-style: groove;
+background-color: white;
+border-style: solid;
 font-size: 2rem;
 }
 :flexbox{
 display: flexbox;
 flex-direction: row;
-flex-wrap: wrap;
+flex-wrap: nowrap;
 justify-content:  center;
 align-items: flex-start;
 align-content: flex-start;}
@@ -35,13 +35,14 @@ text-align: center;
 
 a{
  background-color: #b3b3ff;
+ display:inline;
  border-style: groove;
  margin-left: 10px;
  margin: auto;
  width: 100%;
 }
 p{
-font-size: 150%;
+font-size: 1.5 rem;
 }
 
 .img{				
@@ -58,4 +59,10 @@ title{
 }
 button{
 font-size: 2 rem;
+}
+    table {
+  border: 1px solid blue;
+  text-align: center;
+  align-content: center;
+    
 }
