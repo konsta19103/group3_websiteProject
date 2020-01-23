@@ -14,6 +14,9 @@ background-color: skyblue;
 border-style: solid;
 font-size: 2rem;
 }
+.topnav .icon {
+    display: none;
+  }
 :flexbox{
 display: flexbox;
 flex-direction: row;
@@ -30,12 +33,10 @@ font-size: 225%;
 text-align: left;
 color: blue;
 -webkit-text-stroke: 1px black;
-text-align: center;
+}
 
 a{
- background-color: #b3b3ff;
  display:inline;
- border-style: groove;
  margin-left: 10px;
  margin: auto;
  width: 100%;
@@ -59,3 +60,25 @@ title{
 button{
 font-size: 2 rem;
 }
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive .icon {
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      padding-top: 0;
+      float: none;
+      display: block;
+      text-align: center;
+    }
+  }
