@@ -1,0 +1,130 @@
+﻿<html>
+    <head>
+        <meta charset="UTF-8"> <!--CHARSETTI ÄÄKKÖSILLE-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--TYYLITIEDOSTOT-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="menu.css">
+        <title>Menu</title>
+    </head>
+    <body>
+        
+        <div class="topnav" id="navbar"><!--NAVBAR ALKU-->
+            <a class="logo" href="etusivu.html">
+                <img  src="materials/logo1.png" width="100" height="100"> <!--LOGO-->
+            </a>
+          <br>
+          <!--NAVBAR LINKIT-->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <a href="etusivu.html">Etusivu</a>
+          <a href="menu.html">Menu</a>
+          <a href="#">Ota Yhteyttä</a>
+        </div> <!--NAVBAR Loppu-->
+        <div id="headertext">
+            <h1>Ravintola Jamppa</h1> <!--BODYN PÄÄOTSIKKO-->
+        </div>
+        <div id="header">
+            <h1>Menu</h1> <!--MENUN OTSIKKO-->
+            <p>Herkullisen täyteläiset valikoimat valmistettu kotimaisista raaka-aineista</p>
+        </div> 
+        <!--MENUN SISÄLTÖ ALKU-->
+        
+        <div class="buttonbox">
+        <button type="button" class="collapsible">Alkuruoat</button>
+        <div class="content">
+             <table style="width:100%">
+  <tr>
+    <th>Nimi</th>
+    <th>Hinta</th>
+    <th>Kuva</th>
+  </tr>
+  <tr>
+    <td>Nachoplate</td>
+    <td>7,50e</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Siivekkäät herkut</td>
+    <td>7,50e</td>
+    <td></td>
+  </tr>
+</table> 
+        </div>
+        </div>
+        <div class="buttonbox">
+        <button type="button" class="collapsible">Burgerit</button>
+        <div class="content">
+            <h3>Juusto<br>
+            Pekoni<br>
+            Amerikan ihme<br>
+            Paholaisen pommi</h3>
+        </div>
+        </div>
+        <div class="buttonbox">
+        <button type="button" class="collapsible">Pizzat</button>
+        <div class="content">
+            <h3>Margherita<br>
+            Opera<br>
+            Barbeque<br>
+            Roiskeläppä<br>
+            Tulinen Roiskeläppä<br>
+            Juusto</h3>
+        </div>
+        </div>
+        <div class="buttonbox">
+        <button type="button" class="collapsible">Pihvit</button>
+        <div class="content">
+            <h3>Pihvi<br>
+            Merimiehen pihvi<br>
+            Jampan spesiaali</h3>
+        </div>
+        </div>
+        <div class="buttonbox">
+        <button type="button" class="collapsible">Virvokkeet</button>
+        <div class="content">
+            <h2>Limsat</h2>
+            <h3>Kokis 0.33L/1.5L<br>
+            Bepis 0.33L/1.5L<br>
+            Spraitti 0.33L/1.5L<br>
+            Törsö 0.5L<br>
+            Jäffä 0.33L/1.5L</h3>
+            <h2>Alkomaholi</h2>
+            <h3>Kahre 0.5L<br>
+            Sidukka 0.5L<br>
+            Kahru 0.5L</h3>
+        </div>
+        </div>
+            </div>
+        <!--MENUN SISÄLTÖ LOPPU-->
+        <!--EXPANDING TEXTBOX NAPPULALLE SCRIPTI-->
+        <script> 
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+
+            function myFunction() {
+              var x = document.getElementById("navbar");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+        
+    </body>
+</html>
