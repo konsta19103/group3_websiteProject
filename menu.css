@@ -8,6 +8,7 @@
 
 .content{
 display: none;
+
 }
 
 .container
@@ -83,7 +84,24 @@ ul {
     width: 100%;
     
   }
+  .collapsible
+  {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    border-style: none;
+    color: white;
+    margin: 5px;
+    border-radius: 30px;
 
+  }
+  
+  #header
+  {
+    width: 600px;
+    display: inline-block;
+    padding: 20px;
+  }
   
   @media screen and (min-width: 500px) {
      .menu, .header{
