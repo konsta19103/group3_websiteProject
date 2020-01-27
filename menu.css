@@ -14,14 +14,6 @@
 .content{
   display:none;
 }
-#header
-{
-  width: 600px;
-  display: inline-block;
-  padding: 20px;
-  background-color: rgba(0, 0, 2, 0.5);
-}
-
 
 .container2
 {
@@ -75,7 +67,7 @@ ul {
   .menu
   {
       display: inline-block;
-      padding: 20px;
+      padding: 30px;
       font-size: 5em;
       
   }
@@ -128,3 +120,11 @@ ul {
     color: white;
     
   }
+
+  #header
+{
+  width: 600px;
+  display: inline-block;
+  padding: 20px;
+  background-color: rgba(0, 0, 2, 0.5);
+}

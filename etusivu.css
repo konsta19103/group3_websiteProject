@@ -91,5 +91,25 @@ ul {
       font-size: 14px;
    }
  
-
   }
+
+  .jumbotron{
+    background-image: url("materials/pizza.jpg");
+    display: block;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+  }
+
+  #header
+{
+  width: 600px;
+  display: inline-block;
+  padding: 20px;
+  background-color: rgba(0, 0, 2, 0.5);
+}
+
