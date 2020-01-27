@@ -80,7 +80,11 @@ ul {
     color: white;
     margin: 5px;
     border-radius: 30px;
+  }
 
+  .collapsible:hover
+  {
+    background-color: black;
   }
 
   footer {
