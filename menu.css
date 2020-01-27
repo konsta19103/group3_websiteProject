@@ -1,4 +1,4 @@
-﻿body
+body
 {
     background-color: lightgray;
     font-size: 1vw;
@@ -13,6 +13,7 @@
 }
 .content{
   display:none;
+  
 }
 
 .container2
@@ -131,4 +132,11 @@ ul {
   display: inline-block;
   padding: 20px;
   background-color: rgba(0, 0, 2, 0.5);
+}
+table{
+width: 50%;
+display: inline-block;
+text-align: center;
+
+
 }
