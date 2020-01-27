@@ -89,13 +89,9 @@ ul {
   .jumbotron{
     background-image: url("materials/pizza.jpg");
     display: block;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     color: white;
-    
   }
 
   #header
