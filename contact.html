@@ -36,8 +36,33 @@
                     Sähköposti: ravintolajamppa@gmail.com
                 </p>
             </div>
-            <div id="Palautetta">
-        </div>
+            <form>
+                <div id="palautetta">
+                    <h2>Lähetä palautetta</h2>
+                    <div class="form-part">
+                        <label>Nimesi</label><label class="req">*</label><br>
+                        <input type="text" name="name" size="30" required>  <br>
+                    </div>
+                    <div class="form-part">
+                        <label>Sähköposti</label><label class="req">*</label><br>
+                        <input type="text" name="email" size="35" required>
+                    </div>
+                    <div class="form-part">
+                        <label>Puhelin</label><br>
+                        <input type="text" name="phone" size="9" required>
+                    </div>
+                    <div class="form-part">
+                        <label>Aihe</label><label class="req">*</label><br>
+                        <input type="text" name="topic" size="30" required>
+                    </div>
+                    <div class="form-part" id="comment">
+                        <label>Viesti</label><label class="req">*</label><br>
+                        <textarea name="comment" cols="50" rows="10" required></textarea>
+                    </div>
+                    <input type="submit">
+                </div>
+                </form>
+            </div>
         </div>
         
         <footer>
