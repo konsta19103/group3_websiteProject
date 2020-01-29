@@ -13,38 +13,17 @@ body
   padding-bottom:3%;
 }
 .content{
-  margin-left:20%;
-  margin-right:20%;
-  padding-left: 20%;
+  margin: auto;
+  width: 50%;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
-  text-align: center;
-}body
-{
-    background-color: lightgray;
-    font-size: 1vw;
+  
 }
 
-.container
-{
-  background-color: white;
-  height: auto;
-  padding: 0px;
-  text-align: center;
-  padding-bottom:3%;
-}
-.content{
-  margin-left:20%;
-  margin-right:20%;
-  padding-left: 20%;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
-  text-align: center;
-}
+
+
 
 #navheader{
   background-color: #333;
@@ -177,9 +156,7 @@ text-align: left;
   overflow: hidden;
   background-color: #333;
 }
-  .buttonbox{
-    padding-top: 1%;
-  }
+  
   .logo
   {
     display: inline-block;
