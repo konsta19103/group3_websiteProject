@@ -224,6 +224,31 @@ textarea{
     margin:0;
     padding: 0;
   }
+  #aspa{
+    float:none;
+    padding-right:6%;
+    padding-top:6%;
+    width: 100%;
+  }
+  #palautetta{
+    float:none;
+    padding-left:3%;
+    padding-top:6%;
+  }
+  body input, textarea, p, label{
+    font-size: 300%;
+  }
+  .form-part input, textarea{
+    font-size: 300%;
+    width: 100%;
+  }
+  .form-part{
+    padding-right: 2%;
+    padding-left: 0;
+  }
+  #palautetta input{
+    font-size: 500%;
+  }
   
 }
 
