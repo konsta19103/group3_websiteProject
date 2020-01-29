@@ -199,7 +199,7 @@ textarea{
   {
     display: inline-block;
     vertical-align: top;
-    width: 400px;
+    width: 100%;
     height: 150px;
     border-right-style: none;
   }
@@ -207,10 +207,24 @@ textarea{
   {
     display: inline-block;
     vertical-align: top;
-    width: 400px;
+    width: 100%;
     height: 150px;
     border-right-style: none;
   }
+  .footer3
+  {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 150px;
+    border-right-style: none;
+  }
+  .container{
+    width: 100%;
+    margin:0;
+    padding: 0;
+  }
+  
 }
 
 @media only screen and (max-width: 600px) {

@@ -324,7 +324,7 @@
     {
       display: inline-block;
       vertical-align: top;
-      width: 400px;
+      width: 100%;
       height: 150px;
       border-right-style: none;
     }
@@ -332,7 +332,15 @@
     {
       display: inline-block;
       vertical-align: top;
-      width: 400px;
+      width: 100%;
+      height: 150px;
+      border-right-style: none;
+    }
+    .footer3
+    {
+      display: inline-block;
+      vertical-align: top;
+      width: 100%;
       height: 150px;
       border-right-style: none;
     }
