@@ -264,7 +264,8 @@ text-align: left;
 }
 
 #header{
-width: 600px;
+width:100%;
+max-width: 725px;
 display: inline-block;
 padding: 20px;
 background-color: rgba(0, 0, 2, 0.5);
