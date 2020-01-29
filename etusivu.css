@@ -84,6 +84,13 @@
     .topnav .icon {
       display: none;
     }
+    #responsivebutton{
+      color:white;
+    }
+    #responsivebutton:hover{
+      color:rgb(116, 116, 116);
+    }
+  
     .collapsible
     {
       text-align: center;

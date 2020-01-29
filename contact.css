@@ -92,6 +92,12 @@ textarea{
       font-size: 5em;
       
   }
+  #responsivebutton{
+    color:white;
+  }
+  #responsivebutton:hover{
+    color:rgb(116, 116, 116);
+  }
 
   footer {
     position:absolute;

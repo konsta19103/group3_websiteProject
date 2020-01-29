@@ -90,6 +90,13 @@ body
     color: black;
     text-decoration: none;
   }
+  #responsivebutton{
+    color:white;
+  }
+  #responsivebutton:hover{
+    color:rgb(116, 116, 116);
+  }
+
   .topnav .icon {
     display: none;
   }
