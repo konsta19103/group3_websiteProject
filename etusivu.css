@@ -50,6 +50,7 @@
       justify-content: center;
       width: 100%;
       padding-bottom: 5%;
+      
     }
     .historia
     {
@@ -69,11 +70,13 @@
   .aukioloaika-kuva
   {
     width: 30%;
+    height: auto;
   }
 
   .historia-kuva
   {  
     width: 45%;  
+    height: auto;
   }
   
   
