@@ -67,6 +67,12 @@
     color: white;
     padding: 10px;
   }
+  #schedulebox p, #schedulebox h4
+  {
+    
+    padding-top:8%;
+    margin-top: 5px;
+  }
   .aukioloaika-kuva
   {
     width: 30%;
@@ -392,6 +398,12 @@
     }
     #headertext{
       font-size: 300%;
+    }
+    .textbox{
+      font-size: 300%;
+    }
+    .historia{
+      padding-left: 8%;
     }
   }
 
