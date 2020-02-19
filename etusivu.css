@@ -421,6 +421,11 @@
     
   }
 
+  button:hover 
+  {
+    background-color: black;
+  }
+
   
   
   .chat-popup {

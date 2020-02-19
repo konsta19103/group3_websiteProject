@@ -62,18 +62,7 @@
                 <img class="historia-kuva" src="materials/newyork.jpg">
               </div>---->
 
-              <button class="open-button" onclick="openForm()">Chat</button>
-              <div class="chat-popup" id="myForm">
-                <form action="/action_page.php" class="form-container">
-                  <h3>Chat</h3>
               
-                  <textarea placeholder="Lähetä viesti.." name="msg" required></textarea>
-              
-                  <button type="submit" class="btn">Lähetä</button>
-                  <button type="button" class="btn cancel" onclick="closeForm()">Sulje</button>
-                </form>
-              </div>
-
               
         </div>
                   
@@ -144,6 +133,19 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </div>
+
+<button class="open-button" onclick="openForm()">Chat</button>
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h3>Chat</h3>
+
+    <textarea placeholder="Lähetä viesti.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Lähetä</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Sulje</button>
+  </form>
+</div>
+
 
     </body>
 
