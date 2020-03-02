@@ -24,7 +24,7 @@
               
           <a id="navlink" href="etusivu.php">Etusivu</a>
           <a class="active" id="navlink" href="menu.php">Menu</a>
-          <a id="navlink" href="contact.php">Ota yhteyttä</a> 
+          <a id="navlink" href="contact.php">Ota yhteyttï¿½</a> 
               
         </div>
       </div>
@@ -32,7 +32,7 @@
       <div class="jumbotron">
       <div id="header">
         <h3>Menu</h3> <!--MENUN OTSIKKO-->
-        <p id="headertext">Ravintola Jampasta löydät ruoat sekä juomat jokaisen makuun. Itse kokki Jamppa taikoo herkulliset ruoat käden käänteessä. Ruokien pääraaka-aineet ovat tarkoin valittuja ja suomesta.</p>
+        <p id="headertext">Ravintola Jampasta lï¿½ydï¿½t ruoat sekï¿½ juomat jokaisen makuun. Itse kokki Jamppa taikoo herkulliset ruoat kï¿½den kï¿½ï¿½nteessï¿½. Ruokien pï¿½ï¿½raaka-aineet ovat tarkoin valittuja ja suomesta.</p>
       </div>
     </div>
       <div class="buttonbox">
@@ -44,7 +44,7 @@
               <td class="price">7,50e</td>
             </tr>
             <tr>
-              <td>Siivekkäät herkut</td>
+              <td>Siivekkï¿½ï¿½t herkut</td>
               <td class="price">7,50e</td>
             </tr>
           </table> 
@@ -94,11 +94,11 @@
                     <td class="price">9,00e</td class="price">
                   </tr>
                   <tr>
-                    <td>Roiskelppä</td>
+                    <td>Roiskelppï¿½</td>
                     <td class="price">9,50e</td class="price">
                   </tr>
                   <tr>
-                    <td>Tulinen roiskeläppä</td>
+                    <td>Tulinen roiskelï¿½ppï¿½</td>
                     <td class="price">10,00e</td class="price">
                   </tr>
                 </table>
@@ -139,11 +139,11 @@
                   <td class="price">0,33L/1,5L</td class="price">
                 </tr>
                 <tr>
-                  <td>Törsö</td>
+                  <td>Tï¿½rsï¿½</td>
                   <td class="price">0,33L/1,5L</td class="price"> 
                 </tr>
                 <tr>
-                  <td>Jäffä</td>
+                  <td>Jï¿½ffï¿½</td>
                   <td class="price">0,33L/1,5L</td class="price">
                 </tr></table>             
                 <h2>Alkomaholit</h2>
@@ -169,7 +169,7 @@
         <div class="footer1">        
                 <h4>Osoite:</h4>
                 <p>Jamppakatu 16</p>
-                <p>00000 Hämeenlinna</p>
+                <p>00000 Hï¿½meenlinna</p>
         </div>
 
         <div class="footer2">
@@ -180,14 +180,14 @@
 
         <div class="footer3">
             <h4>Aukioloajat:</h4>
-            <p>Ma-Pe 10:30 – 22:00</p>
-            <p>La 11:00 – 22:00</p>
+            <p>Ma-Pe 10:30 ï¿½ 22:00</p>
+            <p>La 11:00 ï¿½ 22:00</p>
             <p>Su Suljettu</p>
     </div>
         
 
     </footer>
-    <button onclick="topFunction()" id="ylos" title="Mene ylös">Takaisin ylös</button>
+    <button onclick="topFunction()" id="ylos" title="Mene ylï¿½s">Takaisin ylï¿½s</button>
 
 
     
