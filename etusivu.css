@@ -22,7 +22,24 @@
     background-color: #f1f1f1;
     text-align: center;
   }
+.loadmore{
+background-color: #999999;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.loadmore:hover{
+background-color: black;
+}
   
+
 
   
   
@@ -419,11 +436,6 @@
     right: 200px;
     padding: 20px;
     
-  }
-
-  button:hover 
-  {
-    background-color: black;
   }
 
   
